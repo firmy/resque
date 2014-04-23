@@ -1,4 +1,11 @@
 <?php
+/**
+* @file queue.php
+* @brief 
+* @author firmy@foxmail.com
+* @version 
+* @date 2014-04-23
+*/
 if(empty($argv[1])) {
 	die('Specify the name of a job to add. e.g, php queue.php PHP_Job');
 }
